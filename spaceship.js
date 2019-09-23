@@ -7,7 +7,7 @@ function InitializeSpaceship() {
   SPACE_SHIP = {
     x : 300,
     y : 150,
-    rotation : 0,
+    rotation : 180,
     health : 3,
     positions : [
       {
