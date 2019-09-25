@@ -7,6 +7,6 @@
  */
 function Start() {
 
-  // Initialize Spaceship
-  InitializeSpaceship();
+  initializeStudent();
+  initializeTheiss();
 }
