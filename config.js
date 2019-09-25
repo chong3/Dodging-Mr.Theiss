@@ -4,7 +4,9 @@ var GAME = {
     height : 300
   },
   started : true,
-  level : 1
+  score : 0,
+  gap : 100,
+  high : 0
 };
 
 var STUDENT = {
@@ -13,6 +15,8 @@ var STUDENT = {
   acc : 0.2,
   vel : 0,
   jump : -3.5,
+  height : 30,
+  width : 30,
   currentStudent : 'JustinA.png',
   students : ['DiegoA.png', 'JustinA.png', 'DeanB.png', 'JadenB.png', 'JohnC.png', 'PabloG.png','DanielG.png','GuyH.png','CherieH.png','JackH.png','JennaK.png','DeanR.png','AlexS.png','AshtinW.png', 'JPW.png']
 };
