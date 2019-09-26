@@ -5,8 +5,7 @@ var GAME = {
   },
   started : true,
   score : 0,
-  gap : 100,
-  high : 0
+  gap : 100
 };
 
 var STUDENT = {

@@ -110,11 +110,11 @@ function runGame() {
 
   } else {
     context.font = "30px Arial";
-    if (GAME.score > high){
-      high = GAME.score;
+    if (GAME.score > document.cookie){
+      document.cookie = GAME.score;
     }
     context.fillText("Game Over Score " + GAME.score, 135, 200);
-    context.fillText("High Score : " + high, 135, 230);
+    context.fillText("High Score : " + document.cookie, 135, 230);
     context.fillText("Press R to try again", 135, 260);
     if (CONTROLS.running){
       GAME.started = true;
