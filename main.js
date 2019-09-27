@@ -6,7 +6,9 @@
  *
  */
 function Start() {
-
-  // Initialize Spaceship
-  InitializeSpaceship();
+  if (!document.cookie){
+    document.cookie = 0;
+  }
+  initializeStudent();
+  initializeTheiss();
 }
